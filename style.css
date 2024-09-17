@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.menu {
+  background-color: lightblue;
+  height: 600px;
+  width: 150px;
+  float: left;
+}
+
+.content {
+  background-color: aqua;
+  float: left;
+  width: calc(100%-150px);
+  height: 600px;
+  text-align: center;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
